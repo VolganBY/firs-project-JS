@@ -165,7 +165,22 @@ const nquFunction = function (num1, num2) {
     return result;
 }
 
-    console.log(sum(1, 3));
+console.log(sum(1, 3));
+console.log(arrowSub(2, 3));
+console.log(arrowDiv(1, 9));
+console.log(divFunction(3, 3));
+console.log(arrowRem(1,4));
+console.log(arrowMore(5, 9));
+console.log(arrowLess(9, 11));
+console.log(arrowMoe(11, 22));
+console.log(arrowMoe(3, 4));
+console.log(arrowEqu(5, 3));
+console.log(Nqu(31, 30));
+
+
+
+
+
 
 
 
