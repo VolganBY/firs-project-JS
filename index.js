@@ -25,7 +25,6 @@ const arrowLoe = (num1, num2) => num1 <= num2;
 const arrowEqu = (num1, num2) => num1 === num2;
 
 const arrowNqu = (num1, num2) => num1 !== num2;
-}
 
 const SumFunction = function (num1, num2) {
     const result = num1 + num2;
@@ -33,7 +32,6 @@ const SumFunction = function (num1, num2) {
 }
 
 const arrowSum = (num1, num2) => num1 + num2;
-}
 
 function sub(a, b) {
     const result = a - b;
