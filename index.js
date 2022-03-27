@@ -3,56 +3,28 @@ function sum(a, b) {
     return result;
 }
 
-const arrowSub = (num1, num2) => {
-    const result = num1 - num2;
-    return result;
-}
+const arrowSub = (num1, num2) =>num1 - num2;
 
 const divFunction = function (num1, num2) {
     const result = num1 / num2;
     return result;
 }
 
-const arrowDiv = (num1, num2) => {
-    const result = num1 * num2;
-    return result;
-}
+const arrowDiv = (num1, num2) => num1 * num2;
 
-const arrowRem = (num1, num2) => {
-    const result = num1 % num2;
-    return result;
-}
+const arrowRem = (num1, num2) => num1 % num2;
 
-const arrowMore = (num1, num2) => {
-    const result = num1 > num2;
-    return result;
-}
+const arrowMore = (num1, num2) => num1 > num2;
 
-const arrowLess = (num1, num2) => {
-    const result = num1 < num2;
-    return result;
-}
+const arrowLess = (num1, num2) => num1 < num2;
 
+const arrowMoe = (num1, num2) => num1 >= num2;
 
-const arrowMoe = (num1, num2) => {
-    const result = num1 >= num2;
-    return result;
-}
+const arrowLoe = (num1, num2) => num1 <= num2;
 
-const arrowLoe = (num1, num2) => {
-    const result = num1 <= num2;
-    return result;
-}
+const arrowEqu = (num1, num2) => num1 === num2;
 
-const arrowEqu = (num1, num2) => {
-    const result = num1 === num2;
-    return result;
-}
-
-
-const arrowNqu = (num1, num2) => {
-    const result = num1 !== num2;
-    return result;
+const arrowNqu = (num1, num2) => num1 !== num2;
 }
 
 const SumFunction = function (num1, num2) {
@@ -60,9 +32,7 @@ const SumFunction = function (num1, num2) {
     return result;
 }
 
-const arrowSum = (num1, num2) => {
-    const result = num1 + num2;
-    return result;
+const arrowSum = (num1, num2) => num1 + num2;
 }
 
 function sub(a, b) {
@@ -80,10 +50,7 @@ function div(a, b) {
     return result;
 }
 
-const arrowDive = (num1, num2) => {
-    const result = num1 / num2;
-    return result;
-}
+const arrowDive = (num1, num2) => num1 / num2;
 
 function Div(a, b) {
     const result = a * b;
