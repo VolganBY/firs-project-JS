@@ -158,11 +158,12 @@ const equFunction = function (num1, num2) {
 function Nqu(a, b) {
     const result = a !== b;
     return result;
+}
 
-    const nquFunction = function (num1, num2) {
-        const result = num1 !== num2;
-        return result;
-    }
+const nquFunction = function (num1, num2) {
+    const result = num1 !== num2;
+    return result;
+}
 
     console.log(sum(1, 3));
 
