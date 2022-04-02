@@ -1,7 +1,7 @@
 const me = {
     name: 'Vladimir',
     surname: 'Shumarev',
-    dob: "01/03/1996",
+    dob: '01/03/1996',
     reasonTolearnJs: 'I want to change my life',
     dream: 'dream of a miracle',
     logName() {
