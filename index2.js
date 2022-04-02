@@ -1,23 +1,31 @@
-const car = {
-    color: 'red',
-    maxSpeed: 120,
-    logColor() {
-        console.log('Цвет: ', this.color);
+const me = {
+    name: 'Vladimir',
+    surname: 'Shumarev',
+    dob: "01/03/1996",
+    reasonTolearnJs: 'I want to change my life',
+    dream: 'dream of a miracle',
+    logName() {
+        console.log('Вывод в консоль имени: ', this.name);
     },
-    logMaxSpeed() {
-        console.log('Максимальная скорость: ', this.maxSpeed)
+    logSurname() {
+        console.log('Вывод в консоль Фамилии: ', this.surname);
     },
-    logFullInformation() {
-        this.logColor();
-        this.logMaxSpeed();
+    logDob() {
+        console.log(' Вывод в консоль Даты рождения: ', this.dob);
     },
-    go(speed) {
-        console.log('Машина едет со коростью: ', speed, ' км/ч');
+    logReasonTolearnJs() {
+        console.log(me.name, ' хочет выучить JS потому что', this.reasonTolearnJs);
+    },
+    logDream() {
+        console.log(me.name, 'мечтает о', me.dream);
+    },
+    logFullinformation() {
+        this.logName();
+        this.logSurname();
+        this.logDob();
+        this.logReasonTolearnJs();
+        this.logDream();
     }
-};
+}
 
-const secondCar = car;
-car.color = 'green';
-
-console.log(car);
-console.log(secondCar);
+me.logFullinformation();
